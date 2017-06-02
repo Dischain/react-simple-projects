@@ -7,6 +7,6 @@ export default (state = initialState, action) => {
 		case SET_CHARACTERS:
 			return action.characters; 			
 		default:
-			return initialState;
+			return state;
 	}
 }

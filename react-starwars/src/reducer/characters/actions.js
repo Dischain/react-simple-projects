@@ -17,6 +17,6 @@ export function getCharacters() {
 export function setCharacters(characters) {
 	return {
 		type: SET_CHARACTERS,
-		characters,
+		characters
 	};
 }
